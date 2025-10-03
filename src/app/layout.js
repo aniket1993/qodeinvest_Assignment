@@ -3,8 +3,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import "./globals.css";
 import StoreProvider from "@/redux/StoreProvider";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import CommonSnackbar from "@/components/commonComponents/snackbar/Snackbar";
-import PageLoader from "@/components/commonComponents/loader/PageLoader";
+import CommonSnackbar from "@/components/commonComponents/Snackbar/Snackbar";
+import PageLoader from "@/components/commonComponents/Loader/PageLoader";
 import theme from '@/theme/theme';
 
 export const dynamic = 'force-dynamic';
